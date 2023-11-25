@@ -1,0 +1,41 @@
+#serv_back_2{
+height: 100vh;
+background-image: url('./imag4.jpg');
+background-size: cover;
+background-position: center;
+/* Set background color as a fallback */
+background-color: #f8f9fa;
+align-items: center;
+}
+@media(min-width :991px){
+	#serv_back {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+  height: 90vh;
+}
+#para2{
+	width: 50%;
+}
+#hr{
+	width: 50%;
+}
+}
+@media(max-width:991px){
+	#serv_back{
+		display: block;
+	}
+	#serv_back_2{
+		height: 75vh;
+	}
+	#hr{
+		width: 100%;
+	}
+}
+#serv_back{
+	background-color:#060608;
+}
+#serv{
+	background-color: #060608;
+}
+

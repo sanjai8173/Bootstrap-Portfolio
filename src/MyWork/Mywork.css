@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@media (max-width: 991px) { /* Medium screens and below */
+  Carousel {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) { /* Large screens and above */
+  Carousel{
+    width: 90%;
+  }
+}
+.carousel-indicators,.carousel-control-prev,.carousel-control-next {
+  background: transparent;
+}
+
+h3{
+font-family: 'Vina Sans', sans-serif;
+}
+#div2{
+  background-color:black;
+  color: white;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: transparent;
+}

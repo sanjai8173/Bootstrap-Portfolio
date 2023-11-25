@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Vina+Sans&display=swap');
+
+#ban1{
+  background-image: url('./about.jpg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+#ban2{
+  background-image: url('./obj.jpg');
+  background-size: cover;
+  background-position: center;
+  height:70vh;
+}
+#ban3{
+  background-image: url('./final.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media(min-width:991px){
+  #ban1,#ban2,#ban3{
+    height: 95vh;
+  }
+  #intr{
+    width: 25%;
+  }
+  #intr4{
+    width: 25%;
+  }
+  #intr6{
+    width: 25%;
+  }
+  #intr7{
+    width: 50%;
+  }
+}
+@media(max-width:991px){
+  #ban1,#ban2,#ban3{
+    height: 70vh;
+  }
+  #intr{
+    width: 100%;
+  }
+}
+
+#int,.hel{
+  font-family: 'League Spartan', sans-serif;
+}

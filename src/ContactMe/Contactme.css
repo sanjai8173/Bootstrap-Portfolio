@@ -1,0 +1,33 @@
+#cont-back-1{
+  display: flex;
+  justify-content: right;
+}
+@media(max-width:991px){
+	#cont-back{
+		height: 80vh;
+	}
+	#cont-back-1{
+  justify-content:center;
+}
+}
+@media(min-width:991px){
+	#cont-back{
+		height: 94vh;
+	}
+	
+}
+#cont-back-1{
+	background-image: url('./image1.jpg');
+	background-size: cover;
+	background-position:left;
+	align-items: left;
+}
+#cont-back-1{
+	background-color: #ffd930;
+}
+#shell{
+	background-color: #ffd930;
+}
+.hello{
+		background-color: #ffd930;
+}

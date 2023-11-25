@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+@media (max-width: 991px) { /* Medium screens and below */
+  #banner,#quote {
+    height: 80vh;
+  }
+  .card{
+    width: 100;
+  }
+}
+
+@media (min-width: 992px) { /* Large screens and above */
+  #banner,#quote {
+    height: 94vh;
+  }
+}
+#banner{
+background-image: url('./back.jpg');
+background-size: cover;
+background-position: center;
+/* Set background color as a fallback */
+background-color: #f8f9fa;
+}
+
+
+#name{
+font-family: 'Vina Sans', sans-serif;
+font-size: 50px;  
+color: #b7b49b;                                          
+}
+#para{
+  color: #b7b49b;
+}
+#intro{
+  margin-block: auto;
+  text-align: center;
+}
+#quote{
+background-image: url('./cap.jpg');
+background-size: cover;
+background-position: center;
+/* Set background color as a fallback */
+background-color: #f8f9fa;
+}
+#q{
+  font-family:'Vina Sans', sans-serif;
+}
